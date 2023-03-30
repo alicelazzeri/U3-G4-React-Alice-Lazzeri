@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.logoImg {
+  object-fit: cover;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.img-fluid {
+  padding: 1rem;
+  object-fit: contain;
+  object-position: top;
+  height: 300px;
+}
+
+#card {
+  border: none;
+  box-shadow: 5px 5px 32px 0px #625757;
+  transition: box-shadow 0.3s ease-in;
+  border: 4px double #722929;
+  background-color: antiquewhite;
+}
+
+#card:hover {
+  box-shadow: 5px 5px 32px 0px #201111;
+  cursor: pointer;
+}
+
+.container {
+  width: 300px;
+  height: 400px;
+  overflow: auto;
+}
